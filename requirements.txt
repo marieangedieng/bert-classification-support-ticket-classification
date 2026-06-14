@@ -1,0 +1,9 @@
+torch>=2.0
+transformers>=4.30.0
+gradio>=4.0.0
+scikit-learn
+wandb
+pandas
+matplotlib
+seaborn
+tqdm
