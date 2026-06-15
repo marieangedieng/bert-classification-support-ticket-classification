@@ -1,5 +1,5 @@
-torch>=2.0
-transformers>=4.30.0
+torch>=2.4.0
+transformers>=4.40.0
 gradio>=4.0.0
 scikit-learn
 wandb
