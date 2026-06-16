@@ -11,7 +11,7 @@ L'objectif est d'optimiser la file d'attente d'un support technique informatique
 Nous utilisons le dataset [support-ticket-classification.](https://drive.google.com/file/d/17QGX3a0x3iM1iGpd1RyBs1-Mhx2Ktckk/view)
 
 Chaque observation se compose de deux variables d'entrée textuelles : le sujet (`subject`) et le corps du message (`text`). Pour maximiser l'extraction d'informations contextuelles par le mécanisme d'attention, le pipeline fusionne ces deux variables au format : `[Sujet] [Corps du message]`. Le modèle apprend à prédire la variable cible catégorielle `label` à partir de cette chaîne consolidée. `label` contient les classes : `account_access, billing, refund_request, bug_report` et `shipping_delivery`.
-
+![Stats](images_rapport\stats.png)
 
 ## 2. Architecture Implémentée
 

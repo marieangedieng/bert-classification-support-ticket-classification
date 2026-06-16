@@ -38,7 +38,7 @@ def train_epoch(model, dataloader, optimizer, scheduler, device):
         scheduler.step()
 
         total_loss  += loss.item()
-        preds = torch.argmax(logits, dim=1).cpu.numpy()
+        preds = torch.argmax(logits, dim=1).cpu().numpy()
         all_preds.extend(preds)
         all_labels.extend(labels.cpu().numpy())
 

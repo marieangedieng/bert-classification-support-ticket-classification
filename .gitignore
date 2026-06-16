@@ -1,0 +1,31 @@
+# === Environnements virtuels et Dépendances ===
+.venv/
+venv/
+env/
+ENV/
+Changelog.txt
+
+# === Checkpoints et Poids des Modèles (Très lourds) ===
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.json
+best_bert_model/
+
+# === Logs et Outils de suivi (Weights & Biases) ===
+wandb/
+*.log
+
+# === Caches Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# === Configurations d'Éditeurs et OS ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
