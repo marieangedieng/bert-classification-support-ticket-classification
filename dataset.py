@@ -37,7 +37,7 @@ class TextClassificationDataset(Dataset):
 
 def charger_datasets(csv_path="dataset/support-ticket-classification.csv", 
                      model_name="bert-base-uncased", 
-                     max_length=256, 
+                     max_length=128, 
                      test_size=0.2, 
                      seed=42):
     """Charge le CSV, prépare les features textuelles et sépare en Train/Val."""

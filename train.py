@@ -80,10 +80,10 @@ def main():
 
     CONFIG= {
         "model_name": "bert-base-uncased",
-        "epochs": 4,
+        "epochs": 3,
         "batch_size": 16,
         "learning_rate": 2e-5,
-        "max_length": 256,
+        "max_length": 128,
         "seed": 42
     }
 
