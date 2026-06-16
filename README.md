@@ -205,5 +205,21 @@ Sujet: Can't access premium forum
 
 Corps: I have upgraded my account but I still can't access premium forum even after relogin.
 
+## 7. Répartition du travail
+Marie-Ange Dieng:
+* requirements.txt
+* utils.py
+* train.py
+* README.md
+
+Christian Mouangue:
+* dataset.py
+* model.py
+* demo.py
+
+![C1](images_rapport\c1.png)
+![C2](images_rapport\c2.png)
+![C3](images_rapport\c3.png)
+
 
 
